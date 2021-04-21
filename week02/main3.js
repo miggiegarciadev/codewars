@@ -31,5 +31,5 @@ function square(num){
   let newNum = Math.pow(num, 2)
   //num is the base and 2 is the square root
   return newNum
-  //this is returning what the number is sqaured after using the math library method of pow ... info from 
+  //this is returning what the number is sqaured after using the math library method of pow ... info from mdn
 }

@@ -1,6 +1,23 @@
-// P (Parameters: whats  coming into the function [input])
-// R(Returns: what is the result, what do you end up wtih?)
-// E(Examples: play with the idea, write down things that
-//   can actually happen)
-// P(Psuedo Code: plain English what you want to happen, step by
-//   step... think of these questions: 1. What could the user do? 2. What does the user see? 3. What does the user expect?)
+/*
+Link: https://www.codewars.com/kata/57a0556c7cb1f31ab3000ad7/train/javascript
+
+Instructions:
+Write a function which converts the input string to uppercase.
+
+The toUpperCase() method returns the calling string value converted to uppercase (the value will be converted to a string if it isn't one).
+
+
+
+P str
+R HELLO
+E hello -> HeLLO cat ->CAT
+Psuedo Code
+function is called makeUpperCase
+method toUpperCase() makes strings uppercase
+define variable for unidentified string
+*/
+
+function makeUpperCase(str) {
+  // Code here
+  return str.toUpperCase()
+}

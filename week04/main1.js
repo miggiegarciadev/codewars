@@ -1,3 +1,4 @@
+
 // P (Parameters: whats  coming into the function [input])
 // R(Returns: what is the result, what do you end up wtih?)
 // E(Examples: play with the idea, write down things that
@@ -8,8 +9,8 @@
 
 //instructions:
 
-// It's pretty straightforward. Your goal is to create a function that removes the first and last 
-// characters of a string. You're given one parameter, the original string. You don't have to worry with 
+// It's pretty straightforward. Your goal is to create a function that removes the first and last
+// characters of a string. You're given one parameter, the original string. You don't have to worry with
 // strings with less than two characters.
 
 /*
@@ -18,17 +19,13 @@ R hello -> lle
 E 'eloquent' becomes 'loquen'
 place', 'lac'
 Psuedo Code
-1. jUSt remove the first and last letter 
-NOT REVERSING 
-
+1. jUSt remove the first and last letter
+NOT REVERSING
 */
 
 function removeChar(str) {
   return str.slice(1, -1);
   //.slice() looks at the length of the string and removes whatever position is in the parathensis based on zero based index
-  //second numbe is the end index and is also zero based index If negative, it is treated as str.length + endIndex. (For example, if endIndex is -3, it is treated as str.length - 3.) 
+  //second numbe is the end index and is also zero based index If negative, it is treated as str.length + endIndex. (For example, if endIndex is -3, it is treated as str.length - 3.)
   //returns a new string
 }
-
-
-

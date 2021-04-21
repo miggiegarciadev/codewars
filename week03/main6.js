@@ -7,25 +7,20 @@
 
 /*
 link:  https://www.codewars.com/kata/55a70521798b14d4750000a4/train/javascript
-
-instructions: 
-
+instructions:
 Make a function that will return a greeting statement that uses an input; your program should return, "Hello, <name> how are you doing today?".
-
 [Make sure you type the exact thing I wrote or the program may not execute properly]
-
 P name
 R "Hello, <name> how are you doing today?"
 E "Hello, Ryan how are you doing today?" <or> "Hello, Shingles how are you doing today?")
 Psuedo Code
-
 1. split the setence before and after the <name>
-2. dont forget the spaces 
+2. dont forget the spaces
 3. return the full setence as a concatenation
 */
 function greet(name){
   //your code here
-  let greeting = 'Hello, ' 
+  let greeting = 'Hello, '
   let statement = ' how are you doing today?'
   return greeting + name + statement
 }
