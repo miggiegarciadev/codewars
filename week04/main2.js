@@ -7,6 +7,8 @@
 /*
 link:
 
+title: multiply  8kyu
+
 INTRUCTIONS:
 
 P
