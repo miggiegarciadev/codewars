@@ -14,3 +14,7 @@ R
 E
 P
 */
+
+function multiply(a, b){
+  return a * b
+}
