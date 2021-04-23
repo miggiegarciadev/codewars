@@ -7,6 +7,8 @@
 /*
 link:
 
+No Loops 2 - You only need one 8kyu
+
 INTRUCTIONS:
 
 P
@@ -14,3 +16,16 @@ R
 E
 P
 */
+
+function check(a,x){
+if (x=a.includes(x)){
+return true;
+}
+else{
+return false
+}
+};
+
+//learned about includes from Travesy Media videos and using w3 schhools and mdn 
+// The includes() method determines whether a string contains the characters of a specified string.
+// good for booleans because it renders true or false 
