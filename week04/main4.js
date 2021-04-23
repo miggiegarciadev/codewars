@@ -7,6 +7,8 @@
 /*
 link:
 
+Beginner Series #1 School Paperwork 8kyu
+
 INTRUCTIONS:
 
 P
@@ -14,3 +16,23 @@ R
 E
 P
 */
+
+let n = 0; // n is classmates
+let m = 0; // m is pages
+
+
+// function paperwork(n, m) {
+//   if (m , 0 || n < 0){
+//   return 0;
+// }
+// return m *n;
+// }
+
+// why are there negative numbers in this solution? that does not make any sense because you cannot have a negative number of people or a negative numer of papers that would be zero...
+
+function paperwork(n,m) {
+if (n<= 0 || m <= 0) {
+var pages = 0;
+} else pages = n * m;
+return pages;
+}
