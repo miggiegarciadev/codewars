@@ -7,6 +7,8 @@
 /*
 link:
 
+Reverse List Order 8kyu
+
 INTRUCTIONS:
 
 P
@@ -14,3 +16,15 @@ R
 E
 P
 */
+
+// In this kata you will create a function that takes in a list and returns a list with the reverse order.
+// Example: reverseList([1,2,3,4]) == [4,3,2,1]
+// Example: reverseList([3,1,5,4]) == [4,5,1,3]
+
+function reverseList(list) {
+ var reverse= []; 
+ for (var i = list.length-1; i >=0; i --){
+   reverse.push(list[i]);
+}
+return reverse;
+}
