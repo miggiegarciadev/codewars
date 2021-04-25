@@ -22,7 +22,7 @@ function apple(num){
   if (Math.pow(num,2) > 1000) {
     return "It's hotter than the sun!!";
   } else {
-    return "Help youself to a honeycomb Yorkie for the glovebox.";
+    return "Help yourself to a honeycomb Yorkie for the glovebox.";
 
   }
 }
