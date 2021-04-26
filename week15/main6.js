@@ -6,7 +6,7 @@
 //   step... think of these questions: 1. What could the user do? 2. What does the user see? 3. What does the user expect?)
 
 /*
-link:
+link: https://www.codewars.com/kata/5ab6538b379d20ad880000ab/train/javascript
 
 INTRUCTIONS:
 
@@ -15,3 +15,13 @@ R
 E
 P
 */
+
+const areaOrPerimeter = function(l , w) {
+  if(l==w){
+  return l*w;
+  }
+  else{
+    (l>w)
+    return l*2+w*2;
+  }
+}
