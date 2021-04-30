@@ -1,4 +1,4 @@
-// P (Parameters: whats  coming into the function [input])
+// P ( Parameters: whats  coming into the function [input])
 // R(Returns: what is the result, what do you end up wtih?)
 // E( Examples: play with the idea, write down things that
 //   can actually happen )
