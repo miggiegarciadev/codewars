@@ -15,3 +15,9 @@ R
 E
 P
 */
+
+//link: https://www.codewars.com/kata/58dced7b702b805b200000be/train/javascript
+
+function distanceBetweenPoints(a, b) {
+  return Math.sqrt(Math.pow(a.x - b.x, 2) + Math.pow(a.y - b.y, 2));
+}
