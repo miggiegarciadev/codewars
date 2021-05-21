@@ -5,7 +5,7 @@
 // P(Psuedo Code: plain English what you want to happen, step by
 //   step... think of these questions: 1. What could the user do? 2. What does the user see? 3. What does the user expect?)
 let n = 0; // n is classmates
-let m = 0; // m is pages
+let m = 0; // m is page
 
 
 // function paperwork(n, m) {
