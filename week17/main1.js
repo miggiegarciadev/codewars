@@ -4,3 +4,13 @@
 //   can actually happen)
 // P(Psuedo Code: plain English what you want to happen, step by
 //   step... think of these questions: 1. What could the user do? 2. What does the user see? 3. What does the user expect?)
+
+function lovefunc(flower1, flower2){
+  if(flower1%2==0 && flower2%2 !== 0 || flower1%2!==0 && flower2%2 == 0){
+    return true
+  }else{
+    return false
+  }
+}
+
+https://www.codewars.com/kata/555086d53eac039a2a000083/train/javascript ... 
